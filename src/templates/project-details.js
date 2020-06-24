@@ -10,9 +10,9 @@ export default function ProjectDetails() {
         <h2></h2>
         <h3></h3>
         <div className={styles.featured}>
-          <Img fluid={} />
+          {/* <Img fluid={} /> */}
         </div>
-        <div className={styles.html} dangerouslySetInnerHTML={} />
+        {/* <div className={styles.html} dangerouslySetInnerHTML={} /> */}
       </div>
     </Layout>
   )
