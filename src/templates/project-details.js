@@ -1,8 +1,8 @@
+import { graphql } from 'gatsby'
 import React from 'react'
 import Layout from '../components/Layout'
 import Img from 'gatsby-image'
 import * as styles from '../styles/project-details.module.css'
-import { graphql } from 'gatsby'
 
 export default function ProjectDetails({ data }) {
   const { html } = data.markdownRemark;
